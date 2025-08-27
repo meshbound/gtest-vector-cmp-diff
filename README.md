@@ -38,7 +38,7 @@ std::string to_string(const Person& p) {
 }
 ```
 
-### my-class-test.h
+### people-test.h
 ```c++
 #pragma once
 
@@ -47,10 +47,10 @@ std::string to_string(const Person& p) {
 class MyTest : public testing::Test { }
 ```
 
-### my-class-test.cc
+### people-test.cc
 ```c++
-#include "my-test.h"
-#include "my-class.h"
+#include "people-test.h"
+#include "person.h"
 
 #include <string>
 #include <vector>
